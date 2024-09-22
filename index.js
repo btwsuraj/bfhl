@@ -1,8 +1,7 @@
 const express = require("express");
 const app = express();
 const fileType = require('file-type');
-const multer = require('multer');
-const mime = require('mime-types');
+
 
 app.use(express.json());
 
